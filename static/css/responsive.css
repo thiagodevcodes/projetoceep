@@ -20,6 +20,22 @@
         display: inline;
     }
 
+    .slider {
+        display: none;
+    }
+
+    .section-three {
+        gap: 40px;
+    }
+
+    .section-three-img {
+        width: 300px;
+    }
+    
+    .section-three-logo {
+        width: 200px;
+    }
+
 
     .section-one-ceep-img {
         width: 100%;
