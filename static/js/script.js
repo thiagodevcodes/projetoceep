@@ -27,7 +27,6 @@ function atualizarImg() {
 };
 
 var slideIndex = 1;
-showDivs(slideIndex);
 
 function plusDivs(n) {
   showDivs(slideIndex += n);
@@ -53,7 +52,7 @@ function showDivs(n) {
 
 buttonMobile.addEventListener("click", abrirMenu);
 buttonMobile.addEventListener("click", atualizarImg);
-
+showDivs(slideIndex);
 
 
 
