@@ -12,13 +12,13 @@ body {
     text-decoration: none;
 }
 
-.section-one-slider {
+.home-banner-slider {
     width: 100%;
     position: relative;
     display: inline-block;
 }
 
-.section-one-button-left {
+.home-button-left {
     position: absolute;
     top: 50%;
     left: 30px;
@@ -31,7 +31,7 @@ body {
     background: none;
 }
 
-.section-one-button-right {
+.home-button-right {
     position: absolute;
     top: 50%;
     right: 20px;
@@ -45,50 +45,51 @@ body {
     background: none;
 }
 
-.section-one-slides {
+.home-banner-slides {
     display: none;
     width: 100%;
     padding-top: 60px;
 }
 
-.section-one-mobile {
+.home-banner-mobile {
     display: none;
     width: 100%;
     padding-top: 90px; 
     padding-bottom: 30px;
 }
 
-.section-one-mobile-img {
+.home-banner-mobile-img {
     display: none;
     width: 300px;
 
 }
 
-.section-two {
+.section-one {
     background-color: rgb(255, 255, 255);
     padding-top: 30px;
     padding-bottom: 60px;
+
 }
 
-.section-two-img {
+.section-one-img {
     width: 40px;
 }
 
-.section-two-tittle {
+.section-one-tittle {
     text-align: center;
     font-family: 'Potta One', cursive;
     margin-bottom: 30px;
     font-size: 40px;
 }
 
-.section-two-container {
+.section-one-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
 }
 
-.section-two-chield {
+.section-one-chield {
     background-color: rgba(255, 255, 255, 0);
     padding: 10px;
     width: 250px;
@@ -99,32 +100,43 @@ body {
     font-size: 12px;
 }
 
-.section-two-chield:hover {
+.section-one-chield:hover {
     cursor: pointer;
     background-color: rgb(247,231,27);
     transition: 0.5s;
 }
 
-.section-three {
+.section-two {
+    background-image: url("/img/background.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -4px;
+    padding: 40px;
+    
+}
+
+.section-two-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
     width: 100%;
-    margin-bottom: -4px;
-    background-image: url("/img/background.png") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 120px;
     flex-wrap: nowrap;
 }   
 
-.section-three-logo {
+.section-two-logo {
     width: 200px;
 }
 
-.section-three-img {
+.section-two-img {
     border: 3px solid rgb(148, 5, 5);
     border-radius: 30px;
     width: 350px;
+}
+
+.section-two-title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Potta One', cursive;
+    margin-bottom: 20px;
 }

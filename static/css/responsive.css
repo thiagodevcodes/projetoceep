@@ -24,23 +24,23 @@
         display: block;
     }
 
-    .section-one-mobile {
+    .home-banner-mobile {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
 
-    .section-one {
+    .home-banner {
         background-image: url("/img/background.png");
         margin-bottom: 30px;
     }
 
-    .section-one-mobile-img {
+    .home-banner-mobile-img {
         display: inline;
     }
 
-    .section-one-slider {
+    .home-banner-slider {
         display: none;
     }
 
