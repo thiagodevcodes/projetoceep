@@ -1,0 +1,96 @@
+.portal-login {
+    background-color: rgb(170, 5, 5);
+}
+
+.portal-login-container {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 350px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: white;
+}
+
+.portal-login-title {
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.portal-login-img {
+    width: 100px;
+}
+
+.portal-login-button {
+    width: 100%;
+    background-color: rgb(170, 5, 5);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.portal-login-link {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(170, 5, 5);
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 43%;
+    padding-right: 43%;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.porta-login-link:hover {
+    background-color: rgb(214, 0, 0);
+    transition: 0.3s;
+}
+
+.portal-login-buttons {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.portal-login-esquecisenha {
+    padding-top: 10px;
+    color: black;
+}
+
+.portal-login-esquecisenha:hover {
+    color: rgb(214, 0, 0);
+}
+
+.portal-login-button:hover {
+    background-color: rgb(214, 0, 0);
+    transition: 0.3s;
+}
+
+.portal-input {
+    font-size: 15px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.portal-login-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

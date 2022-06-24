@@ -1,7 +1,11 @@
-@media screen and (max-width: 814px) {
+@media screen and (max-width: 946px) {
     .header-main {
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+    #menu {
+        display: none;
     }
     
     #menu-mobile {
@@ -16,22 +20,34 @@
         transition: 0.5s;
     }
 
-    .section-one-ceep-img-mobile {
+    #button-mobile {
+        display: block;
+    }
+
+    .section-one-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .section-one {
+        background-image: url("/img/background.png");
+        margin-bottom: 30px;
+    }
+
+    .section-one-mobile-img {
         display: inline;
     }
 
-    .slider {
+    .section-one-slider {
         display: none;
     }
 
     .section-three {
         gap: 40px;
     }
-
-    .section-three-img {
-        width: 300px;
-    }
-    
+   
     .section-three-logo {
         width: 200px;
     }
@@ -41,14 +57,6 @@
         width: 100%;
         height: 500px;
         display: none;
-    }
-
-    #menu {
-        display: none;
-    }
-
-    #button-mobile {
-        display: block;
     }
 
     .logo {
@@ -67,9 +75,21 @@
         margin-left: 0;
     }
     
-    .table {
+    .quemsomos-table {
         width: 70%;
         left: 16%
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .section-three {
+        flex-direction: column;
+    }
+
+    .section-three-img {
+        border: 3px solid rgb(148, 5, 5);
+        border-radius: 50px;
+        width: 350px;
     }
 }
 

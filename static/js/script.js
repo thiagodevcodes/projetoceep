@@ -1,6 +1,6 @@
 let menuMobile= document.getElementById("menu-mobile");
 let buttonMobile = document.getElementById("button-mobile");
-let ceepimg = document.querySelector(".mySlides");
+let ceepimg = document.querySelector(".section-one-slider");
 let voltar = document.querySelector("#button-voltar");
 
 let stats = false; 
@@ -33,7 +33,7 @@ function plusDivs(n) {
 }
 
 function showDivs(n) {
-    var x = document.getElementsByClassName("mySlides");
+    var x = document.getElementsByClassName("section-one-slides");
 
     if (n > x.length) {
         slideIndex = 1
