@@ -40,11 +40,18 @@
                 <img class="home-banner-mobile-img" src="/img/logoJFB.png" alt="Logotipo CEEP">
                 <img class="home-banner-mobile-img" src="/img/matriculas.png" alt="Matriculas abertas">
             </div>
-            <div class="home-banner-slider">
-                <img class="home-banner-slides" src="/img/banneralt.png" alt="Banner Principal">
-                <img class="home-banner-slides" src="/img/banneralt2.png" alt="Banner dos Cursos">
-                <button class="home-button-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="home-button-right" onclick="plusDivs(+1)">&#10095;</button>
+            
+            <div class="home-slider">
+                <li class="home-slider-li">
+                    <input type="button" onclick="plusDivs(-1)" id="slide2" name="slide">
+                    <label class="home-slider-label" for="slide2">&#10094;</label>
+                    <img class="home-slider-img" src="/img/banneralt2.png" />
+                </li>
+                <li class="home-slider-li">
+                    <input type="button" onclick="plusDivs(+1)" id="slide1" name="slide">
+                    <label class="home-slider-label" for="slide1">&#10095;</label>
+                    <img class="home-slider-img" src="/img/banneralt.png" />
+                </li>
             </div>
         </fieldset>
 
