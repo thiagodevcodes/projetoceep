@@ -13,9 +13,9 @@ class Usuario {
         });
         
         if(user == null) {
-            res.send("<h1>Senha ou Usuário incorretos!</h1>");
+            res.send("<h1>Senha ou Usuário incorretos! Login Falhou!</h1>");
         } else {
-            res.send("<h1>Login Efetuado com Sucesso!</h1>");
+            res.send("<h1>Login Efetuado com Sucesso! Bem vindo ao Sistema!</h1>");
         };
     }
     
