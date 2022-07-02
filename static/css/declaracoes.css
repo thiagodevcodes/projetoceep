@@ -17,6 +17,10 @@ body {
     margin-top: 60px;
 }
 
+.declaracao-img {
+    width: 100px;
+}
+
 .declaracao-container{
     display: flex;
     justify-content: center;
